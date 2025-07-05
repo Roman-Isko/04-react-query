@@ -18,7 +18,7 @@ const SearchBar = ({ onSubmit }: SearchBarProps) => {
     }
 
     onSubmit(inputValue);
-    setQuery(""); // очищення інпуту після сабміту
+    setQuery("");
   };
 
   return (
