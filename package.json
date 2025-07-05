@@ -12,14 +12,18 @@
   "dependencies": {
     "axios": "^1.10.0",
     "modern-normalize": "^3.0.1",
+    "paginate": "^0.2.0",
+    "query": "^0.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-hot-toast": "^2.5.2"
+    "react-hot-toast": "^2.5.2",
+    "tanstack": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@types/react-paginate": "^7.1.4",
     "@vitejs/plugin-react-swc": "^3.10.2",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
