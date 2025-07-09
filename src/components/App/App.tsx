@@ -32,7 +32,7 @@ const App = () => {
   const handleSearch = (newQuery: string) => {
     if (newQuery !== query) {
       setQuery(newQuery);
-      setPage(1); // при новому запиті — перша сторінка
+      setPage(1);
     }
   };
 
