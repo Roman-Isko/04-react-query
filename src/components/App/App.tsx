@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import ReactPaginate from "react-paginate";
 import toast from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
 import SearchBar from "../SearchBar/SearchBar";
 import MovieGrid from "../MovieGrid/MovieGrid";
@@ -54,6 +55,7 @@ const App = () => {
   return (
     <>
       <SearchBar onSubmit={handleSearch} />
+      <Toaster position="top-right" />
 
       {isLoading && <Loader />}
       {isError && <ErrorMessage />}
